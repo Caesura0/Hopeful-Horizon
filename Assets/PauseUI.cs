@@ -7,12 +7,17 @@ public class PauseUI : MonoBehaviour
 
     bool isPaused = false;
     [SerializeField] private GameObject pauseMenuUI;
-    void Update()
+
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PauseUnpause();
-        }
+        PlayerInput.Instance.OnMenuAction += Instance_OnMenuAction;
+        pauseMenuUI.SetActive(false);
+        isPaused = gameObject.activeSelf;
+    }
+
+    private void Instance_OnMenuAction(object sender, System.EventArgs e)
+    {
+        PauseUnpause();
     }
 
     public void PauseUnpause()

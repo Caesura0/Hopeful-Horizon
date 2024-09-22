@@ -256,6 +256,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64516683}
   m_CullTransparentMesh: 1
+--- !u!224 &477937743 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+  m_PrefabInstance: {fileID: 7594355370321330501}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &535916170
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,8 +345,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 62
-  m_fontSizeBase: 62
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -485,6 +490,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1097697675}
+  - {fileID: 477937743}
   - {fileID: 2064906512}
   - {fileID: 1512028965}
   - {fileID: 791305599}
@@ -513,7 +519,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &791305599
 RectTransform:
   m_ObjectHideFlags: 0
@@ -530,8 +536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0025024, y: 5.5551}
-  m_SizeDelta: {x: 1228, y: 702.1102}
+  m_AnchoredPosition: {x: 0.0025024, y: -0.000014782}
+  m_SizeDelta: {x: 1228, y: 691}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &791305600
 CanvasGroup:
@@ -600,7 +606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1097697675
 RectTransform:
   m_ObjectHideFlags: 0
@@ -793,8 +799,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -947,8 +953,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: -212}
-  m_SizeDelta: {x: 300.4531, y: 117.1241}
+  m_AnchoredPosition: {x: 474.99994, y: -261.20566}
+  m_SizeDelta: {x: 201.9789, y: 56.3533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512028966
 MonoBehaviour:
@@ -1205,8 +1211,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 396, y: -20.361}
-  m_SizeDelta: {x: 300.4531, y: 117.1241}
+  m_AnchoredPosition: {x: 197, y: -261.21}
+  m_SizeDelta: {x: 201.9789, y: 56.3533}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2064906513
 MonoBehaviour:
@@ -1290,6 +1296,181 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064906511}
   m_CullTransparentMesh: 1
+--- !u!1001 &7594355370321330501
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 601621364}
+    m_Modifications:
+    - target: {fileID: 2780079749039847462, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_Name
+      value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1228
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 691
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3305719770998318350, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_text
+      value: "Dear Grandson, \r\n\r\nAs I sit down to write to you, I find myself
+        overwhelmed with gratitude for all that you have done for our little village.
+        It\u2019s hard to put into words just how much your efforts have meant to
+        us all, but I will certainly try.\r\n\rThe village was struggling before
+        you arrived, but with your help, it\u2019s now flourishing in ways we could
+        only dream of. You\u2019ve managed to restore not just the land, but also
+        the heart and soul of this community.\r\n\r\nYour work with Farmer Henry
+        Wheatfield, Alchemist Willow, Jonas Fieldstone, and Silas Cornwell all speak
+        of your kindness often and I know they feel blessed to have had your support
+        during such a difficult time.\r\n\rAnd then, of course, there was the tremendous
+        feat of unblocking the river. Watching the water flow freely again was a
+        sight to behold. The fish have returned, and with them, the fishermen who
+        had long since given up hope. The markets are bustling with fresh catches,
+        and the village is alive with the sound of laughter and chatter.\r\n\r\nThanks
+        to your tireless efforts, tourism has restarted, and our once quiet village
+        is now filled with the joyous sounds of visitors discovering its beauty.
+        The inns are full, the shops are thriving, and the streets are filled with
+        life.\r\n\rBut perhaps the most important thing of all is the happiness you\u2019ve
+        brought back To all of the villagers. Their smiles are wider, their steps
+        are lighter, and their hearts are full of hope once more. The village is
+        no longer just surviving; it\u2019s thriving, all thanks to you.\r\n\r\nI
+        can\u2019t wait to see you again and for you to come see us thriving in person.
+        The villagers are already planning a grand celebration in your honor, and
+        I know they\u2019re eager to show their appreciation for everything you\u2019ve
+        done.\r\n\rUntil then, take care of yourself, and know that you\u2019ve made
+        a difference that will be remembered for generations to come. We\u2019re
+        all so proud of you.\r\n\nWith all my love and deepest gratitude,\r\nGrandpa"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: c3c3dd0250e80ef46906e393652a883c, type: 2}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -2967027995557698740, guid: c3c3dd0250e80ef46906e393652a883c, type: 2}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 5132214589718635388, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6695566422196043367, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1056.5923
+      objectReference: {fileID: 0}
+    - target: {fileID: 6695566422196043367, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000028133
+      objectReference: {fileID: 0}
+    - target: {fileID: 6695566422196043367, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 24
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a1f32a5595295704c99abfcb6d01e646, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

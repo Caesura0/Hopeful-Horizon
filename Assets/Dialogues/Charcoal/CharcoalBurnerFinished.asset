@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8091bb84708ba3d4ca84b961481dabec, type: 3}
   m_Name: CharcoalBurnerFinished
   m_EditorClassIdentifier: 
-  conversantName: Forest NPC
   dialogueLines:
-  - This forest is a huge mess since the factory was built.
-  - Can you help me pick up all the trash?
+  - Thanks for getting me that wood.
+  - "Here\u2019s your charcoal. I guess there are some helpful people still out there."
   hasSaidDialogue: 0
   isRepeatableDialogue: 0

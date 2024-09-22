@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using DG.Tweening;
+using Unity.VisualScripting;
 
 
 public class SimpleDialogueManager : MonoBehaviour
@@ -21,6 +22,8 @@ public class SimpleDialogueManager : MonoBehaviour
 
     Dialogue currentDialogue;
     DialogueTrigger conversant;
+
+
 
     int index = 1;
 
@@ -45,6 +48,7 @@ public class SimpleDialogueManager : MonoBehaviour
 
         transform.transform.DOScale(0, .01f);
         gameObject.SetActive(false);
+
     }
 
     private void PlayerInput_OnInteractAction(object sender, System.EventArgs e)
@@ -64,17 +68,13 @@ public class SimpleDialogueManager : MonoBehaviour
         }
     }
 
-    void Update()
-    {
 
 
-    }
 
 
     public void StartDialogue(Dialogue dialogue, DialogueTrigger conversant)
     {
         InDialogue = true;
-        Debug.Log("starting");
         PlayerInput.Instance.OnInteractAction += PlayerInput_OnInteractAction;
         SoundManager.Instance.PlayOpenDialogueSound();
         
@@ -123,9 +123,7 @@ public class SimpleDialogueManager : MonoBehaviour
         else
         {
             PlayerInput.Instance.OnInteractAction -= PlayerInput_OnInteractAction;
-            conversant.OnDialogueEnd();
-            currentDialogue = null;
-            InDialogue = false;
+
             SoundManager.Instance.PlayOpenDialogueSound();
             //add dialogue open animation with dotween
             AnimateTextBoxClose();
@@ -147,6 +145,9 @@ public class SimpleDialogueManager : MonoBehaviour
     {
         gameObject.transform.DOScale(0, .23f).OnComplete(() => {
          gameObject.SetActive(false);
+            conversant.OnDialogueEnd();
+            currentDialogue = null;
+            InDialogue = false;
         });
     }
 

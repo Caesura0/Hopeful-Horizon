@@ -7,7 +7,7 @@ public class QuestPickupTrash : Quest
 {
 
     int trashPickedUp;
-    int trashAssigned = 3;
+    int trashAssigned = 6;
 
 
     private void Start()

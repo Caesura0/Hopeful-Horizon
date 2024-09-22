@@ -17,8 +17,8 @@ MonoBehaviour:
     all been feeling so lost and bitter since The Factory has left us jobless and
     with all this mess to clean up. "
   - "I\u2019ve had such a hard time myself \u2013 I left my farm to work at The Factory
-    and all my crops have died. I could really use a hand replanting some of these
-    crops."
+    and all my crops have died. "
+  - I could really use a hand replanting and watering some of these crops.
   - 'Do you think you could help me replant them while I look around in my shed for
     an axe for you to use? '
   hasSaidDialogue: 0

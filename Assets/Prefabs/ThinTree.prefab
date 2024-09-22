@@ -175,10 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac9e73f1f1964be4292405dd046fe76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neededItem:
-    itemName: Axe
-    itemSprite: {fileID: 1031128497, guid: 7c3607b2a5200824490e370150db179a, type: 3}
-    itemType: 3
+  neededItem: {fileID: 11400000, guid: 2d735982cc5af6449bdcd699ad01b3d5, type: 2}
   strength: 0.1
   shakeTime: 0.65
   vibrato: 18

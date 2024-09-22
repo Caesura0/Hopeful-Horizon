@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: FirstDialogueFinished
   m_EditorClassIdentifier: 
   dialogueLines:
-  - Thank you for picking up the trash
-  - Your reward is in the chest
+  - Thank you for your help! It looks much better don't you think?
   hasSaidDialogue: 0
   isRepeatableDialogue: 0

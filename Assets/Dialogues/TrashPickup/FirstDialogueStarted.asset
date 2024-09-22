@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FirstDialogueStarted
   m_EditorClassIdentifier: 
   dialogueLines:
-  - You'll need to pick up 3 pieces of trash
+  - I can't wait for the town to be cleaned up, it's alot of hard work.
   hasSaidDialogue: 0
   isRepeatableDialogue: 0

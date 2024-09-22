@@ -80,6 +80,33 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""6eded742-8e28-4148-b72a-9ca9dc4ce402"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PrevItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""e2c6abfc-3c88-45c7-9021-bd1cb57fccdc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Menu"",
+                    ""type"": ""Button"",
+                    ""id"": ""430b9b9d-986b-4239-9f7d-87cf075d1a10"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -456,6 +483,140 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""Run"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""16b78c4c-85e2-4b68-9bc3-a87b313e9103"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9b70500b-6fd9-4c16-812c-332ce30764ca"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0217535b-e774-4199-a748-f1f526e77637"",
+                    ""path"": ""<Keyboard>/capsLock"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6a67d01a-86d7-413e-87e0-fa98b2e136c2"",
+                    ""path"": ""<Gamepad>/leftShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""13da1de7-d1b0-4e67-bd72-cd81e787f6fe"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Menu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7fe26fdd-0c33-4ace-95b3-0d8f6362fb45"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Menu"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Touch"",
+            ""id"": ""8a599eb5-c545-40b5-9d81-50a241ec9938"",
+            ""actions"": [
+                {
+                    ""name"": ""PrimaryContact"",
+                    ""type"": ""Button"",
+                    ""id"": ""83cc83d4-2234-4608-a10f-635cba765527"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PrimaryPosition"",
+                    ""type"": ""Value"",
+                    ""id"": ""60d5f473-7153-4feb-bb91-9d931ae3bbf8"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""TouchCanceled"",
+                    ""type"": ""Button"",
+                    ""id"": ""21d1ea6a-f41e-4215-82b0-52a0d3af4d7c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""1bb4b3f8-af80-4932-a495-4f5d6040d02a"",
+                    ""path"": ""<Touchscreen>/Press"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrimaryContact"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""df9c3e99-8dd2-4be1-b095-a7177eeb79d1"",
+                    ""path"": ""<Touchscreen>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrimaryPosition"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""75ced855-a761-470f-b583-5cc78b2b730a"",
+                    ""path"": ""<Touchscreen>/{Cancel}"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TouchCanceled"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -476,6 +637,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_KeyboardGamepad_Hotkeys = m_KeyboardGamepad.FindAction("Hotkeys", throwIfNotFound: true);
         m_KeyboardGamepad_QuestUI = m_KeyboardGamepad.FindAction("QuestUI", throwIfNotFound: true);
         m_KeyboardGamepad_Run = m_KeyboardGamepad.FindAction("Run", throwIfNotFound: true);
+        m_KeyboardGamepad_NextItem = m_KeyboardGamepad.FindAction("NextItem", throwIfNotFound: true);
+        m_KeyboardGamepad_PrevItem = m_KeyboardGamepad.FindAction("PrevItem", throwIfNotFound: true);
+        m_KeyboardGamepad_Menu = m_KeyboardGamepad.FindAction("Menu", throwIfNotFound: true);
+        // Touch
+        m_Touch = asset.FindActionMap("Touch", throwIfNotFound: true);
+        m_Touch_PrimaryContact = m_Touch.FindAction("PrimaryContact", throwIfNotFound: true);
+        m_Touch_PrimaryPosition = m_Touch.FindAction("PrimaryPosition", throwIfNotFound: true);
+        m_Touch_TouchCanceled = m_Touch.FindAction("TouchCanceled", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -543,6 +712,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private readonly InputAction m_KeyboardGamepad_Hotkeys;
     private readonly InputAction m_KeyboardGamepad_QuestUI;
     private readonly InputAction m_KeyboardGamepad_Run;
+    private readonly InputAction m_KeyboardGamepad_NextItem;
+    private readonly InputAction m_KeyboardGamepad_PrevItem;
+    private readonly InputAction m_KeyboardGamepad_Menu;
     public struct KeyboardGamepadActions
     {
         private @PlayerControls m_Wrapper;
@@ -553,6 +725,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         public InputAction @Hotkeys => m_Wrapper.m_KeyboardGamepad_Hotkeys;
         public InputAction @QuestUI => m_Wrapper.m_KeyboardGamepad_QuestUI;
         public InputAction @Run => m_Wrapper.m_KeyboardGamepad_Run;
+        public InputAction @NextItem => m_Wrapper.m_KeyboardGamepad_NextItem;
+        public InputAction @PrevItem => m_Wrapper.m_KeyboardGamepad_PrevItem;
+        public InputAction @Menu => m_Wrapper.m_KeyboardGamepad_Menu;
         public InputActionMap Get() { return m_Wrapper.m_KeyboardGamepad; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -580,6 +755,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Run.started += instance.OnRun;
             @Run.performed += instance.OnRun;
             @Run.canceled += instance.OnRun;
+            @NextItem.started += instance.OnNextItem;
+            @NextItem.performed += instance.OnNextItem;
+            @NextItem.canceled += instance.OnNextItem;
+            @PrevItem.started += instance.OnPrevItem;
+            @PrevItem.performed += instance.OnPrevItem;
+            @PrevItem.canceled += instance.OnPrevItem;
+            @Menu.started += instance.OnMenu;
+            @Menu.performed += instance.OnMenu;
+            @Menu.canceled += instance.OnMenu;
         }
 
         private void UnregisterCallbacks(IKeyboardGamepadActions instance)
@@ -602,6 +786,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @Run.started -= instance.OnRun;
             @Run.performed -= instance.OnRun;
             @Run.canceled -= instance.OnRun;
+            @NextItem.started -= instance.OnNextItem;
+            @NextItem.performed -= instance.OnNextItem;
+            @NextItem.canceled -= instance.OnNextItem;
+            @PrevItem.started -= instance.OnPrevItem;
+            @PrevItem.performed -= instance.OnPrevItem;
+            @PrevItem.canceled -= instance.OnPrevItem;
+            @Menu.started -= instance.OnMenu;
+            @Menu.performed -= instance.OnMenu;
+            @Menu.canceled -= instance.OnMenu;
         }
 
         public void RemoveCallbacks(IKeyboardGamepadActions instance)
@@ -619,6 +812,68 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         }
     }
     public KeyboardGamepadActions @KeyboardGamepad => new KeyboardGamepadActions(this);
+
+    // Touch
+    private readonly InputActionMap m_Touch;
+    private List<ITouchActions> m_TouchActionsCallbackInterfaces = new List<ITouchActions>();
+    private readonly InputAction m_Touch_PrimaryContact;
+    private readonly InputAction m_Touch_PrimaryPosition;
+    private readonly InputAction m_Touch_TouchCanceled;
+    public struct TouchActions
+    {
+        private @PlayerControls m_Wrapper;
+        public TouchActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @PrimaryContact => m_Wrapper.m_Touch_PrimaryContact;
+        public InputAction @PrimaryPosition => m_Wrapper.m_Touch_PrimaryPosition;
+        public InputAction @TouchCanceled => m_Wrapper.m_Touch_TouchCanceled;
+        public InputActionMap Get() { return m_Wrapper.m_Touch; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(TouchActions set) { return set.Get(); }
+        public void AddCallbacks(ITouchActions instance)
+        {
+            if (instance == null || m_Wrapper.m_TouchActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_TouchActionsCallbackInterfaces.Add(instance);
+            @PrimaryContact.started += instance.OnPrimaryContact;
+            @PrimaryContact.performed += instance.OnPrimaryContact;
+            @PrimaryContact.canceled += instance.OnPrimaryContact;
+            @PrimaryPosition.started += instance.OnPrimaryPosition;
+            @PrimaryPosition.performed += instance.OnPrimaryPosition;
+            @PrimaryPosition.canceled += instance.OnPrimaryPosition;
+            @TouchCanceled.started += instance.OnTouchCanceled;
+            @TouchCanceled.performed += instance.OnTouchCanceled;
+            @TouchCanceled.canceled += instance.OnTouchCanceled;
+        }
+
+        private void UnregisterCallbacks(ITouchActions instance)
+        {
+            @PrimaryContact.started -= instance.OnPrimaryContact;
+            @PrimaryContact.performed -= instance.OnPrimaryContact;
+            @PrimaryContact.canceled -= instance.OnPrimaryContact;
+            @PrimaryPosition.started -= instance.OnPrimaryPosition;
+            @PrimaryPosition.performed -= instance.OnPrimaryPosition;
+            @PrimaryPosition.canceled -= instance.OnPrimaryPosition;
+            @TouchCanceled.started -= instance.OnTouchCanceled;
+            @TouchCanceled.performed -= instance.OnTouchCanceled;
+            @TouchCanceled.canceled -= instance.OnTouchCanceled;
+        }
+
+        public void RemoveCallbacks(ITouchActions instance)
+        {
+            if (m_Wrapper.m_TouchActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(ITouchActions instance)
+        {
+            foreach (var item in m_Wrapper.m_TouchActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_TouchActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public TouchActions @Touch => new TouchActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -636,5 +891,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         void OnHotkeys(InputAction.CallbackContext context);
         void OnQuestUI(InputAction.CallbackContext context);
         void OnRun(InputAction.CallbackContext context);
+        void OnNextItem(InputAction.CallbackContext context);
+        void OnPrevItem(InputAction.CallbackContext context);
+        void OnMenu(InputAction.CallbackContext context);
+    }
+    public interface ITouchActions
+    {
+        void OnPrimaryContact(InputAction.CallbackContext context);
+        void OnPrimaryPosition(InputAction.CallbackContext context);
+        void OnTouchCanceled(InputAction.CallbackContext context);
     }
 }

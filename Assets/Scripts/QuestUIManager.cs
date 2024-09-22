@@ -2,6 +2,7 @@ using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class QuestUIManager : MonoBehaviour
 {
@@ -99,5 +100,11 @@ public class QuestUIManager : MonoBehaviour
             // Destroy each child GameObject
             Destroy(child.gameObject);
         }
+    }
+
+
+    public void DeselectButton()
+    {
+        EventSystem.current.SetSelectedGameObject(null);
     }
 }

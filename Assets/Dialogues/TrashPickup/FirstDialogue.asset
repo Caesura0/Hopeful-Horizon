@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8091bb84708ba3d4ca84b961481dabec, type: 3}
   m_Name: FirstDialogue
   m_EditorClassIdentifier: 
-  conversantName: Forest NPC
   dialogueLines:
-  - This forest is a huge mess since the factory was built.
-  - Can you help me pick up all the trash?
+  - This town is a huge mess since the factory was built. They left mess everywhere
+    and then closed down
+  - Can you help me pick up some of the trash? I'd love the town to look beautiful
+    again.
   hasSaidDialogue: 0
   isRepeatableDialogue: 0

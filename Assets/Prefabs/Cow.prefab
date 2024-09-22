@@ -122,14 +122,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idleSwitchMinTime: 3
   idleSwitchMaxTime: 6
-  itemToBeUsed:
-    itemName: Bottle
-    itemSprite: {fileID: -1817378960, guid: e4d0f1aacccfdb144a1552a5b940764c, type: 3}
-    itemType: 0
-  itemToBeAdded:
-    itemName: FullMilk
-    itemSprite: {fileID: -595409106, guid: e4d0f1aacccfdb144a1552a5b940764c, type: 3}
-    itemType: 6
+  itemToBeUsed: {fileID: 11400000, guid: 7670297c93f6b7f4499df165347a92fe, type: 2}
+  itemToBeAdded: {fileID: 11400000, guid: 3c0414962e2c8f642a6d7dd1d3bb3a1f, type: 2}
 --- !u!61 &2556778203468758302
 BoxCollider2D:
   m_ObjectHideFlags: 0

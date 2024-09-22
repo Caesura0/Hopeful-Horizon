@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CropFarmerStarted
   m_EditorClassIdentifier: 
   dialogueLines:
-  - 'There is a watering can laying around somewhere and some seeds in a chest nearby
-    as well. '
+  - There is a watering can laying around somewhere and some seeds in a chest Right
+    by the fence.
   hasSaidDialogue: 0
   isRepeatableDialogue: 0

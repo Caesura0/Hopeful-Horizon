@@ -49,6 +49,28 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
+
+    public void CycleNextInventorySlot()
+    {
+        if (inventoryUISlotList.Count == 0)
+            return;
+
+        int nextIndex = (selectedInventoryIndex + 1) % inventoryUISlotList.Count;
+        SelectUISlot(nextIndex);
+    }
+
+    public void CyclePreviousInventorySlot()
+    {
+        if (inventoryUISlotList.Count == 0)
+            return;
+
+        // Subtract 1 and wrap around if the index goes below 0
+        int previousIndex = (selectedInventoryIndex - 1 + inventoryUISlotList.Count) % inventoryUISlotList.Count;
+
+        SelectUISlot(previousIndex);
+    }
+
+
     public bool ContainsItem(ItemType type)
     {
         foreach (Item item in itemList.Keys)
@@ -63,7 +85,7 @@ public class InventoryManager : MonoBehaviour
         return false;
     }
 
-    public Item? GetSelectedItem()
+    public Item GetSelectedItem()
     {
         if (inventoryUISlotList.Count == 0) return null;
         return inventoryUISlotList[selectedInventoryIndex].GetItemInSlot(out int count);
@@ -87,17 +109,22 @@ public class InventoryManager : MonoBehaviour
         DestroyAllChildren();
         inventoryUISlotList.Clear();
 
+        int index = 0;
         foreach (var item in itemList)
         {
             var itemSlotGO = Instantiate(inventoryUISlotPrefab.gameObject, this.transform);
             var itemSlot = itemSlotGO.GetComponent<InventoryUISlot>();
-            Debug.Log(itemSlot);
+
+            // Set up the UI and assign the click handler for the button
             itemSlot.UpdateUI(item.Key, item.Value);
+            int currentIndex = index; // Capture the index for the button click event
+            itemSlot.SetButtonCallback(() => SelectUISlot(currentIndex));
             inventoryUISlotList.Add(itemSlot);
+
+            index++;
         }
+
         SelectUISlot(selectedInventoryIndex);
-
-
     }
 
 

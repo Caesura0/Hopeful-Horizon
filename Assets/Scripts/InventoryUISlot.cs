@@ -12,11 +12,14 @@ public class InventoryUISlot : MonoBehaviour
     [SerializeField] GameObject highLight;
     [SerializeField] TextMeshProUGUI number;
 
+    Button selectThisInventorySlot; //this is new option on the InventoryUISlot
+
     Item item;
     int count;
     private void Start()
     {
         //UpdateSelectedVisual(false);
+        
     }
 
     public void UpdateUI(Item item, int count)
@@ -40,5 +43,11 @@ public class InventoryUISlot : MonoBehaviour
         highLight.gameObject.SetActive(selected);
     }
 
+    public void SetButtonCallback(UnityEngine.Events.UnityAction action)
+    {
+        selectThisInventorySlot = GetComponent<Button>();
+        selectThisInventorySlot.onClick.RemoveAllListeners();
+        selectThisInventorySlot.onClick.AddListener(action);
+    }
 
 }

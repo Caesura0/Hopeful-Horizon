@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - "Hello, grandson I\u2019m glad to see you here. It has been very tough here for
-    too long. I\u2019ve told the townspeople, and they have been eager for your arrival. "
-  - We have a problem and need your help. Follow the road south and talk to the Alchemist
-    to see what he needs to clear the river.
+    too long. No one wants to work together."
+  - I have a problem and need your help. Follow the road south and talk to the Alchemist
+    Willow to see what she needs to clear the river.
   hasSaidDialogue: 0
   isRepeatableDialogue: 0

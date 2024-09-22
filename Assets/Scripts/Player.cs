@@ -33,7 +33,9 @@ public class Player : MonoBehaviour
 
     //bool canMove = true;
     bool isMoving;
-    bool isRunning;
+    bool isRunning = true;
+
+    float directionalThreshold = 0.1f;
 
 
     Animator animator;
@@ -64,18 +66,30 @@ public class Player : MonoBehaviour
         PlayerInput.Instance.OnInteractAction += PlayerInput_OnInteractAction;
         PlayerInput.Instance.OnItemUseAction += PlayerInput_OnItemUseAction;
         PlayerInput.Instance.OnHotkeySelectedAction += Instance_OnHotkeySelectedAction;
+        PlayerInput.Instance.OnNextItemAction += Instance_OnNextItemAction;
+        PlayerInput.Instance.OnPrevItemAction += Instance_OnPrevItemAction;
         PlayerInput.Instance.OnRunCanceledAction += Instance_OnRunCanceledAction;
         PlayerInput.Instance.OnRunAction += Instance_OnRunAction;
     }
 
+    private void Instance_OnPrevItemAction(object sender, EventArgs e)
+    {
+        InventoryManager.Instance.CycleNextInventorySlot();
+    }
+
+    private void Instance_OnNextItemAction(object sender, EventArgs e)
+    {
+        InventoryManager.Instance.CyclePreviousInventorySlot();
+    }
+
     private void Instance_OnRunAction(object sender, EventArgs e)
     {
-        isRunning = true;
+        isRunning = false; ;
     }
 
     private void Instance_OnRunCanceledAction(object sender, EventArgs e)
     {
-        isRunning = false;
+        isRunning = true;
     }
 
     private void Instance_OnHotkeySelectedAction(object sender, PlayerInput.HotkeySelectedEventArgs e)
@@ -114,15 +128,15 @@ public class Player : MonoBehaviour
 
     }
 
-    private void CheckForItemUse()
+    public void CheckForItemUse()
     {
         if (canMove && !SimpleDialogueManager.Instance.InDialogue)
         {
             Debug.Log("Check for items" + canMove);
             Item? item = InventoryManager.Instance.GetSelectedItem();
-            if (item.HasValue)
+            if (item != null)
             {
-                itemType = item.Value.itemType;
+                itemType = item.itemType;
                 UseItem(itemType);
                 
             }
@@ -275,7 +289,7 @@ public class Player : MonoBehaviour
         {
             isMoving = true;
             lastMoveX = movement.x;
-            if (lastMoveX != 0)
+            if (lastMoveX != 0 && movement.x > movement.y)
             {
                 lastMoveY = 0f;
             }
@@ -289,7 +303,7 @@ public class Player : MonoBehaviour
         {
             isMoving = false;
         }
-        if(isRunning)
+        if (isRunning && isMoving && canMove)
         {
             animator.speed = 1.5f;
         }
@@ -325,7 +339,7 @@ public class Player : MonoBehaviour
     }
 
 
-    void CheckForInteract()
+    public void CheckForInteract()
     {
         if (canMove && !SimpleDialogueManager.Instance.InDialogue)
         {

@@ -81,10 +81,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3471351068159cf45b53da5e7cae67d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  neededItem:
-    itemName: PickAxe
-    itemSprite: {fileID: 1206274900, guid: 7c3607b2a5200824490e370150db179a, type: 3}
-    itemType: 2
+  neededItem: {fileID: 11400000, guid: c4c41ad8b5e165c47942d18b8fbeac1b, type: 2}
   strength: 0.1
   shakeTime: 0.5
   vibrato: 14

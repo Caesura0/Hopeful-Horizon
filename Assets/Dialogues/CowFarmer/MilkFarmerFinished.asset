@@ -15,7 +15,8 @@ MonoBehaviour:
   dialogueLines:
   - 'Thank you for doing this for me. I hope to be able to provide more for the town
     now. '
-  - Here is the pickaxe.  I expect it will prove useful for you. The river is to
-    the east of the village if you were looking for it. Lots of sulfur.
+  - 'Take the pickaxe from the chest.  I expect it will prove useful for you. '
+  - The river is to the east of the village if you were looking for it. Lots of sulfur
+    in the rocks with yellow crystals
   hasSaidDialogue: 0
   isRepeatableDialogue: 0
