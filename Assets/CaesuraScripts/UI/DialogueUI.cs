@@ -113,14 +113,14 @@ namespace Caesura.UI
 
             if (playerConversant.IsChoosing())
             {
-                textRect.anchorMax = new Vector2(0.55f, 0.75f); // Stop before the choices panel (which starts at 0.6)
+                // textRect.anchorMax = new Vector2(0.55f, 0.75f); // Stop before the choices panel (which starts at 0.6)
                 BuildChoiceList();
                 nextButton.gameObject.SetActive(false);
                 if (quitButton != null) quitButton.gameObject.SetActive(false);
             }
             else
             {
-                textRect.anchorMax = new Vector2(0.85f, 0.75f); // Stretch further when there are no choices
+                // textRect.anchorMax = new Vector2(0.85f, 0.75f); // Stretch further when there are no choices
                 
                 bool hasNext = playerConversant.HasNext();
                 nextButton.gameObject.SetActive(hasNext);
