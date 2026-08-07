@@ -1,3 +1,4 @@
+using Caesura.Items;
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ public class DestructableTree: MonoBehaviour, IItemInteractable
 
     public bool ItemInteract(Player player)
     {
-        if (InventoryManager.Instance.GetSelectedItem() != null && InventoryManager.Instance.GetSelectedItem() == neededItem)
+        if (HotbarManager.Instance.GetSelectedItem() != null && HotbarManager.Instance.GetSelectedItem() == neededItem)
         {
             hitCounter++;
             visual.transform.DOShakePosition(shakeTime, strength, vibrato, 0);
@@ -42,3 +43,4 @@ public class DestructableTree: MonoBehaviour, IItemInteractable
 
 
 }
+

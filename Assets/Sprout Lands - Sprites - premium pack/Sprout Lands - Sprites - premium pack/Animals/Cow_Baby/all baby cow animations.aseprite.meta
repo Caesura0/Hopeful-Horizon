@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -764,13 +765,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -381348505
+    uuid:
+      value0: 4283188163
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -11779133
     name: all baby cow animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: all baby cow animations_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -779,7 +785,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: d4f02d8d7d552fc4c8090255ba94d217
-    - name: all baby cow animations_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -788,7 +794,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 9378f529a8d3978499b88f4e52b4c26d
-    - name: all baby cow animations_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -797,7 +803,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 2c07ed3d2c00d8741b0caad7c802dbf5
-    - name: all baby cow animations_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -806,7 +812,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 793e5fb7b20e547449a66f0f9fb2ec76
-    - name: all baby cow animations_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -815,7 +821,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 9962db80749278b4282c04b74f13fff9
-    - name: all baby cow animations_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -824,7 +830,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 7b0446721c1d725449f40b33ce8709b5
-    - name: all baby cow animations_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -833,7 +839,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: dcae28d98eeaab141b6cca68eb63b038
-    - name: all baby cow animations_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -842,7 +848,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 8e93f47034bbc40448e0d4554c8a591d
-    - name: all baby cow animations_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -851,7 +857,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 7743140cfddbe2644ad52bb90c7688af
-    - name: all baby cow animations_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -860,7 +866,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 3b422721b459a6d43acb1cba260c3aba
-    - name: all baby cow animations_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -869,7 +875,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: ee6b9e80043c43b4a84c8d2c75bff288
-    - name: all baby cow animations_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -878,7 +884,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 4e4e400b19a0ce6489de06d0ebadb6e4
-    - name: all baby cow animations_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -887,7 +893,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 2bf2ae3f5915a214c85cd2c0d0ef1140
-    - name: all baby cow animations_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -896,7 +902,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 75882ca26db2d8745a18b2a07f1f0eee
-    - name: all baby cow animations_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -905,7 +911,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: efc9022fce1f07c49b925d2d39aae429
-    - name: all baby cow animations_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -914,7 +920,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 8b0c379927150ca42af035e3a956375f
-    - name: all baby cow animations_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -923,7 +929,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: bdb34d08f7da1424da51fd55bc0a8595
-    - name: all baby cow animations_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -932,7 +938,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 27f1d57b751a1264aa98adabe322ea2f
-    - name: all baby cow animations_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -941,7 +947,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: a748bee8ebff4a34bb3ece311fa5bee3
-    - name: all baby cow animations_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -950,7 +956,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: aeb8e20c651b9704ab083dedc39b35a1
-    - name: all baby cow animations_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -959,7 +965,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: d3c7fc88c0b8b1540a663d30ca9aced5
-    - name: all baby cow animations_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -968,7 +974,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 0bb8027746ae9c342965510074f251cf
-    - name: all baby cow animations_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -977,7 +983,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: b22180e606feaf846b13567816bc6af9
-    - name: all baby cow animations_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -986,7 +992,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 50185cee0ef942144ba819e5fd92c48d
-    - name: all baby cow animations_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -995,7 +1001,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 5cd43816cdab277468289e590750bfe8
-    - name: all baby cow animations_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1004,7 +1010,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 95e1937631020294da0a7a34c0d2d9da
-    - name: all baby cow animations_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1013,7 +1019,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 8cd41cf2538f6574a984c3b13c3e8646
-    - name: all baby cow animations_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1022,7 +1028,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 56470c2fe551bca478bd96c1af34efa5
-    - name: all baby cow animations_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1031,7 +1037,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 4f620653d7eca9d41a779611931a5f77
-    - name: all baby cow animations_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1040,7 +1046,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 880e23155f550b24c8ae4f5a12a03fc0
-    - name: all baby cow animations_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1049,7 +1055,7 @@ ScriptedImporter:
         width: 288
         height: 672
       spriteId: 1e6e19e28f8ec214fa5d41929f4dfd5d
-    - name: all baby cow animations_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1065,3 +1071,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 288, y: 288}
+  previousTextureSize: {x: 2048, y: 4096}

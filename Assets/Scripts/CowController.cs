@@ -1,3 +1,4 @@
+using Caesura.Items;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,10 @@ public class CowController : MonoBehaviour, IItemInteractable
     [SerializeField] Item itemToBeAdded;
 
     private Animator animator;
+    float timer = 0f;
+    float timeToNextMove = 0f;
+
+    [SerializeField] private AudioEventChannelSO audioChannel;
 
     bool isMilked = false;
 
@@ -46,14 +51,14 @@ public class CowController : MonoBehaviour, IItemInteractable
     public bool ItemInteract(Player player)
     {
         if(isMilked) { return false; }
-        if (InventoryManager.Instance.GetSelectedItem() == itemToBeUsed)
+        if (HotbarManager.Instance.GetSelectedItem() == itemToBeUsed)
         {
-            if (InventoryManager.Instance.ContainsItem(ItemType.Bottle))
+            if (HotbarManager.Instance.GetSelectedItem() is BottleTool)
             {
-                SoundManager.Instance.PlayCowMooSound();
+                audioChannel?.RaiseEvent(SoundEffect.CowMoo);
                 animator.Play("BrownCowHearts");
-                InventoryManager.Instance.RemoveItem(itemToBeUsed, 1);
-                InventoryManager.Instance.AddItem(itemToBeAdded, 1);
+                HotbarManager.Instance.RemoveItem(itemToBeUsed, 1);
+                HotbarManager.Instance.AddItem(itemToBeAdded, 1);
                 isMilked = true;
             }
             else
@@ -65,3 +70,4 @@ public class CowController : MonoBehaviour, IItemInteractable
         return false;
     }
 }
+

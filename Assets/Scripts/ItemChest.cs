@@ -1,3 +1,4 @@
+using Caesura.Items;
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,7 +19,8 @@ public class ItemChest : MonoBehaviour, IInteractable
 
     public bool isChestLocked = true;
     public bool isItemTaken = false;
-     
+    
+    [SerializeField] private AudioEventChannelSO audioChannel;
 
     private void Start()
     {
@@ -30,9 +32,7 @@ public class ItemChest : MonoBehaviour, IInteractable
 
         isChestLocked = false;
         transform.DOShakePosition(shakeTime, strength, vibrato, 0);
-        SoundManager.Instance.PlayChestUnlockSound();
-        //transform.DOShakePosition(0.3, .8, 15,90, false);
-
+        audioChannel?.RaiseEvent(SoundEffect.ChestUnlock);
     }
 
     public void ShakeChest()
@@ -49,13 +49,13 @@ public class ItemChest : MonoBehaviour, IInteractable
         {
             animator.Play("ChestOpening");
             isItemTaken = true;
-            InventoryManager.Instance.AddItem(itemInChest, itemQuantity);
+            HotbarManager.Instance.AddItem(itemInChest, itemQuantity);
 
         }
         if (isChestLocked)
         {
             transform.DOShakePosition(shakeTime, strength, vibrato, 0);
-            SoundManager.Instance.PlayChestLockedSound();
+            audioChannel?.RaiseEvent(SoundEffect.ChestLocked);
         }
     }
 }

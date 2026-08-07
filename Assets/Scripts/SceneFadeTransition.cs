@@ -16,7 +16,6 @@ public class SceneFadeTransition : MonoBehaviour
     //[SerializeField] private float threshold = 5f; // The position threshold to trigger the transition
 
     [SerializeField] Transform playerTransform;
-    private bool isTransitioning = false;
     private void Awake()
     {
         Instance = this;
@@ -36,7 +35,6 @@ public class SceneFadeTransition : MonoBehaviour
 
     public IEnumerator Transition()
     {
-        isTransitioning = true;
 
         // Fade out
         yield return StartCoroutine(Fade(1));
@@ -46,8 +44,6 @@ public class SceneFadeTransition : MonoBehaviour
 
         // Fade in
         yield return StartCoroutine(Fade(0));
-
-        isTransitioning = false;
     }
 
     public IEnumerator Fade(float targetAlpha)

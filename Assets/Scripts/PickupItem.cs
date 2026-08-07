@@ -1,3 +1,4 @@
+using Caesura.Items;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,10 @@ public class PickupItem : MonoBehaviour , IInteractable
 
     private void Start()
     {
-        GetComponent<SpriteRenderer>().sprite = itemSO.itemSprite;
+        if (itemSO != null)
+        {
+            GetComponent<SpriteRenderer>().sprite = itemSO.GetIcon();
+        }
     }
 
     public void Interact(Player player)
@@ -76,3 +80,4 @@ public class PickupItem : MonoBehaviour , IInteractable
 //        return hash;
 //    }
 //}
+

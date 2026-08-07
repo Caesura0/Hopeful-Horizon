@@ -1,3 +1,4 @@
+using Caesura.Items;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -19,29 +20,79 @@ public class FarmableSoil : MonoBehaviour, IItemInteractable
 
     public static event Action OnAnyTilePlantedAndWatered;
 
+    bool isTilled;
     bool isWatered;
     bool isPlanted;
+    
+    SpriteRenderer baseRenderer;
+    Sprite tilledSprite;
+
+    private void Awake()
+    {
+        baseRenderer = GetComponent<SpriteRenderer>();
+        if (baseRenderer != null)
+        {
+            tilledSprite = baseRenderer.sprite; // Save the dry dirt sprite
+            if (transpartentSprite != null)
+            {
+                baseRenderer.sprite = transpartentSprite; // Start as untilled (transparent)
+            }
+        }
+    }
+
+    private void OnEnable()
+    {
+        TimeManager.OnDayChanged += OnDayChanged;
+    }
+
+    private void OnDisable()
+    {
+        TimeManager.OnDayChanged -= OnDayChanged;
+    }
+
+    private void OnDayChanged(int newDay)
+    {
+        if (isTilled && isWatered)
+        {
+            // Soil absorbs the water and dries out overnight
+            DewaterTile();
+        }
+    }
 
 
 
     public bool ItemInteract(Player player)
     {
-        if (InventoryManager.Instance.GetSelectedItem() != null )
+        if (HotbarManager.Instance.GetSelectedItem() != null )
         {
-            var selectedItem = InventoryManager.Instance.GetSelectedItem().itemType;
+            var item = HotbarManager.Instance.GetSelectedItem();
 
-            switch (selectedItem)
+            if (item is HoeTool)
             {
-                case ItemType.WateringCan:
-                    return RandomWateredTile(); 
-                    
-                    
-                case ItemType.Seed:
-                    return SeedPlanted();
-                    
+                return TillSoil();
             }
+            else if (item is WateringCanTool)
+            {
+                return RandomWateredTile(); 
+            }
+            else if (item is SeedTool)
+            {
+                return SeedPlanted();
+            }
+        }
+        return false;
+    }
 
-
+    bool TillSoil()
+    {
+        if (!isTilled)
+        {
+            isTilled = true;
+            if (baseRenderer != null && tilledSprite != null)
+            {
+                baseRenderer.sprite = tilledSprite; // Reveal the dry dirt
+            }
+            return true;
         }
         return false;
     }
@@ -49,6 +100,8 @@ public class FarmableSoil : MonoBehaviour, IItemInteractable
 
     bool RandomWateredTile()
     {
+        if (!isTilled) return false;
+
         if (!isWatered)
         {
             var range = UnityEngine.Random.Range(0, wateredSoilTiles.Length);
@@ -75,16 +128,18 @@ public class FarmableSoil : MonoBehaviour, IItemInteractable
 
     bool SeedPlanted()
     {
+        if (!isTilled) return false;
+
         if (!isPlanted)
         {
-            var item = InventoryManager.Instance.GetSelectedItem();
-            if (item.itemType == ItemType.Seed)
+            var item = HotbarManager.Instance.GetSelectedItem();
+            if (item is SeedTool)
             {
                 plantRenderer.sprite = plantSprite;
                 plantRenderer.gameObject.SetActive(true);
                 isPlanted = true;
 
-                InventoryManager.Instance.RemoveItem(InventoryManager.Instance.GetSelectedItem(), 1);
+                HotbarManager.Instance.RemoveItem(HotbarManager.Instance.GetSelectedItem(), 1);
 
                 if (isWatered)
                 {
@@ -116,3 +171,4 @@ public class FarmableSoil : MonoBehaviour, IItemInteractable
         throw new System.NotImplementedException();
     }
 }
+

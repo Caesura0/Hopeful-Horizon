@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -284,13 +285,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1640536719
+    uuid:
+      value0: 1726836853
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1726836853
     name: Charakter Spritesheet and animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Charakter Spritesheet and animations_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +305,7 @@ ScriptedImporter:
         width: 422
         height: 1121
       spriteId: 684bebda537b5b3488cd4083940ad974
-    - name: Charakter Spritesheet and animations_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +314,7 @@ ScriptedImporter:
         width: 421
         height: 1121
       spriteId: 75e5658a7a0db9544b5d02f83aa6699c
-    - name: Charakter Spritesheet and animations_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +323,7 @@ ScriptedImporter:
         width: 422
         height: 1121
       spriteId: 01ae09f905e55f34e882bd9ac34f06bf
-    - name: Charakter Spritesheet and animations_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +332,7 @@ ScriptedImporter:
         width: 422
         height: 1121
       spriteId: 09f6d1ecd02ff654da41384ed64dde2e
-    - name: Charakter Spritesheet and animations_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +341,7 @@ ScriptedImporter:
         width: 419
         height: 1121
       spriteId: 1bc6f5245c6170b4894b1dbcefdadca0
-    - name: Charakter Spritesheet and animations_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +350,7 @@ ScriptedImporter:
         width: 416
         height: 1121
       spriteId: 1bc4ce79f3aadfc45a60b8e4ad6a6960
-    - name: Charakter Spritesheet and animations_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +359,7 @@ ScriptedImporter:
         width: 416
         height: 1121
       spriteId: 928ffec93336bd949a2e6b4adad480f4
-    - name: Charakter Spritesheet and animations_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -369,3 +375,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 432, y: 1152}
+  previousTextureSize: {x: 2048, y: 4096}

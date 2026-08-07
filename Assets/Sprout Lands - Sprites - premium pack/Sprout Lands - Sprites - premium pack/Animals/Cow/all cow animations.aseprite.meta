@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -764,13 +765,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 212208631
+    uuid:
+      value0: 3689662611
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -605304685
     name: all cow animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: all cow animations_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -779,7 +785,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 86ebbf31ac7c32e4d95b293edf8eb1cb
-    - name: all cow animations_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -788,7 +794,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 283031e2a72bec444bb3ca98275a3f25
-    - name: all cow animations_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -797,7 +803,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: f8bb1dcc6636f99498f0de6e77acbb5e
-    - name: all cow animations_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -806,7 +812,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: cba07fa4ebeaa87479566328f36f23a7
-    - name: all cow animations_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -815,7 +821,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: bff95e72a2c548b459b3a3480be84b50
-    - name: all cow animations_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -824,7 +830,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 2dd97f02a66e5614faee9752fc1c8116
-    - name: all cow animations_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -833,7 +839,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 709bc74453a69984ab921cd19bb85f54
-    - name: all cow animations_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -842,7 +848,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 36a59cf4453e1454ab03e04d19320435
-    - name: all cow animations_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -851,7 +857,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 6c81c6a85487a7a4e9f2e2007ea47dc6
-    - name: all cow animations_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -860,7 +866,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 7b55179880fd92941839a8f240f7fe56
-    - name: all cow animations_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -869,7 +875,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: fcb59fb9af9a6f9429d99f3b9e56cef4
-    - name: all cow animations_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -878,7 +884,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 410c4af7f8668e5418cbe45175ba03be
-    - name: all cow animations_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -887,7 +893,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 854389694a1b99247a3dd45f02d4e315
-    - name: all cow animations_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -896,7 +902,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 27d529b9dfd3f074cbc1aa986fe9d522
-    - name: all cow animations_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -905,7 +911,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: eb05ea9ef1bbb0946b2670f4dbf85aac
-    - name: all cow animations_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -914,7 +920,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: bd28356958ac410458a7247bc10bfbdf
-    - name: all cow animations_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -923,7 +929,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 5439f6e9909a4a44784871f4e97e967d
-    - name: all cow animations_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -932,7 +938,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 1cbc033a974e8ce41973e5b35aae92d7
-    - name: all cow animations_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -941,7 +947,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: d384ac734bc11c8408b2bf6119b8f2f4
-    - name: all cow animations_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -950,7 +956,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: cb99f427422d48448be27bd190886be8
-    - name: all cow animations_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -959,7 +965,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 9bfc691653e17504397c4aa2e3a510e5
-    - name: all cow animations_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -968,7 +974,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 5580e1373bc65bf42be197421c07f5f9
-    - name: all cow animations_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -977,7 +983,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 3157f64a15f0f714794d135f88ef18b2
-    - name: all cow animations_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -986,7 +992,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 26e89727164cc2a40a3f8a0687021ffe
-    - name: all cow animations_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -995,7 +1001,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 4877613ecc40af3409ec009e2a589dfd
-    - name: all cow animations_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1004,7 +1010,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 29f76a0cfb0132f4eac8cbaba1910f27
-    - name: all cow animations_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1013,7 +1019,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: b68b975e16045ca41a6ff738002ab4e1
-    - name: all cow animations_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1022,7 +1028,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 66721214c61b7a943aaa38461fa90f37
-    - name: all cow animations_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1031,7 +1037,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 55768ec6a72dfcf42be5901378ba77c8
-    - name: all cow animations_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1040,7 +1046,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: ddc95be93cd47b74c9ea34658df991aa
-    - name: all cow animations_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1049,7 +1055,7 @@ ScriptedImporter:
         width: 304
         height: 672
       spriteId: 5b794c58e9bd5404aa9471016b201091
-    - name: all cow animations_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1065,3 +1071,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 304, y: 256}
+  previousTextureSize: {x: 2048, y: 4096}

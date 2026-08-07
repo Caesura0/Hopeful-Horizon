@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -444,13 +445,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1685991675
+    uuid:
+      value0: 1575262553
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1575262553
     name: Chicken_Baby_Animations_AspriteFile
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +465,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: ed361713eaf808846b1b2d3ec4486526
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +474,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 64b5e8e2eb7a6e6468720723380d23b0
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +483,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 9f8fbcab2feead34cabb765d1ecc05c7
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +492,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 8567c80befcdee64c9540b27868df80f
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +501,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 6035fe1ac167a8742a2b48744223c491
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +510,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: d3365c0c4ce444a48bfd25a6eb6f017a
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +519,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: af7aba22bbf61c44c9794aa8e5fba4ab
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +528,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 549603875abc8c342b39748d2faf6a78
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +537,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 373d2f8c6ba41464796795a66adeceec
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +546,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 25d080e092e69714680a15a4c2b3a27e
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +555,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 99de52c54e6303446bc151eda12e0c92
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +564,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 66b21d702b4fd0c4faa4086086263b9b
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +573,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: fd0f314d99b0f644f8d63b559cdb4e24
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +582,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 69c5460ef4fc68c4ea81da774aea3f76
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +591,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: a052d8eac08d4764db39b6bcc7839d9d
-    - name: Chicken_Baby_Animations_AspriteFile_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -601,3 +607,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 176, y: 320}
+  previousTextureSize: {x: 4096, y: 4096}

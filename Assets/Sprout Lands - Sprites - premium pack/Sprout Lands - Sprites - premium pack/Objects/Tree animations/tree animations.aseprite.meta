@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -444,13 +445,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1529987151
+    uuid:
+      value0: 2037742667
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 2037742667
     name: tree animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: tree animations_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +465,7 @@ ScriptedImporter:
         width: 610
         height: 226
       spriteId: c1ea4599db402ea428c099d39e97b9d8
-    - name: tree animations_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +474,7 @@ ScriptedImporter:
         width: 611
         height: 226
       spriteId: b72fb5ba16287324aa845a2a556b696f
-    - name: tree animations_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +483,7 @@ ScriptedImporter:
         width: 616
         height: 226
       spriteId: a5164d294d8d10a4bae35acb9a52f2e4
-    - name: tree animations_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +492,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 187ac6eda6fcd194abb480b340e91e47
-    - name: tree animations_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +501,7 @@ ScriptedImporter:
         width: 619
         height: 226
       spriteId: 844fa4c1d1664ac4ba607afc3f1019f1
-    - name: tree animations_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +510,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 232ea9466a58e2a499850b850cab3be4
-    - name: tree animations_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +519,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: c9d6bfd0b6902c5429ad8d3bd5d961d2
-    - name: tree animations_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +528,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: f2bc81b519744af488badfc44faca5eb
-    - name: tree animations_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +537,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 3743bfbd771bff84aa848f62cef0f34d
-    - name: tree animations_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +546,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 65bbc5a9e5fd26d42ba42025d61eba4a
-    - name: tree animations_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +555,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 6c62cdbf69835eb438e1e30d7c7405f6
-    - name: tree animations_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +564,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 4a58a9464170bb6438ef928725c0dca5
-    - name: tree animations_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +573,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 0e916182dfd0fe84aa622405be57c736
-    - name: tree animations_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +582,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: b877e0147338869408aad9911cfbcd7f
-    - name: tree animations_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +591,7 @@ ScriptedImporter:
         width: 618
         height: 226
       spriteId: 5ce04fce181488442bbb4a338fdeff73
-    - name: tree animations_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -601,3 +607,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 624, y: 192}
+  previousTextureSize: {x: 2048, y: 2048}

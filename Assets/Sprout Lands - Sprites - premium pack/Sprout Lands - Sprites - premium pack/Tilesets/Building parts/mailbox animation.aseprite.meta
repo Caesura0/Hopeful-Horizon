@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -1544,13 +1545,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1421019344
+    uuid:
+      value0: 2203406320
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -2091560976
     name: mailbox animation
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: mailbox animation_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -1559,7 +1565,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f156ea86c534e064c9d41ae9aae9cd4e
-    - name: mailbox animation_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -1568,7 +1574,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 369219f5b4724964cb1d03b1cb7c8cc0
-    - name: mailbox animation_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -1577,7 +1583,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: ac81f70ddecfd2943aff8db0d0935ca2
-    - name: mailbox animation_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -1586,7 +1592,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 218c7418fb14c6f4a8487baba22af261
-    - name: mailbox animation_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -1595,7 +1601,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: b352e19ae503b4b41a7d2c13364b4d54
-    - name: mailbox animation_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -1604,7 +1610,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 23e9dfbbfbbf30246a44924b4cd07399
-    - name: mailbox animation_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -1613,7 +1619,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: d247c9d9acc37494cb317138362d8eab
-    - name: mailbox animation_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -1622,7 +1628,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: a361d01aed33d6c44a07418ebc209812
-    - name: mailbox animation_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -1631,7 +1637,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 40471dd5c5669354d8c1154d9ec9f75c
-    - name: mailbox animation_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -1640,7 +1646,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 06f135b129aa55643ac0724be5395ca3
-    - name: mailbox animation_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -1649,7 +1655,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: bc7ee93e2e74b3e429f09961b772c572
-    - name: mailbox animation_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -1658,7 +1664,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f7e0f39acb8103d44bb9cf294641a835
-    - name: mailbox animation_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -1667,7 +1673,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 9d5cbd673c13b9c4c9d36371b677f953
-    - name: mailbox animation_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -1676,7 +1682,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 48cc98c5dc368c74d929fba1651837e1
-    - name: mailbox animation_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -1685,7 +1691,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: c7be125403d59c44d9558e838cb07815
-    - name: mailbox animation_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -1694,7 +1700,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: a259af423b8baea4cb45b07e3b213cdf
-    - name: mailbox animation_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1703,7 +1709,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 0e7bab50d0ea3504f9279cc025df431d
-    - name: mailbox animation_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1712,7 +1718,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 7fcd9a3c6641a1f4796f9457ab99f080
-    - name: mailbox animation_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1721,7 +1727,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 702cc11a9e3070046bc42242d276ebfe
-    - name: mailbox animation_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1730,7 +1736,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 9541b66572f45b545b1c1eeaec642fce
-    - name: mailbox animation_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1739,7 +1745,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: e2eedb6ed4e948541875f08c5d0fe5b7
-    - name: mailbox animation_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1748,7 +1754,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 173b7d928b3b4f8448dff921b83a33da
-    - name: mailbox animation_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1757,7 +1763,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f9fa3fb149d1ee54a8352d20060c44e8
-    - name: mailbox animation_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1766,7 +1772,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 41e6a09b48e706045a400f8cceefa339
-    - name: mailbox animation_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1775,7 +1781,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 1ec01438a14cfe84dbcf612491952cb0
-    - name: mailbox animation_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1784,7 +1790,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 90a84a50a26662d4c965a3bd782ffc35
-    - name: mailbox animation_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1793,7 +1799,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: de7ec888b90aba54893dab8218bc6999
-    - name: mailbox animation_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1802,7 +1808,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: ed340e6fc4a64dd4983db925bba6f381
-    - name: mailbox animation_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1811,7 +1817,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 90819073f51e3ef44a9a9f0e89495964
-    - name: mailbox animation_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1820,7 +1826,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 83c0dd3e9dbd5d24fa2a5fa9e9078749
-    - name: mailbox animation_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1829,7 +1835,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 198009e96ad9522408a7d695b9f220fa
-    - name: mailbox animation_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1838,7 +1844,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: ba2b3d162673176489bd522188110ebf
-    - name: mailbox animation_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1847,7 +1853,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 4ca6344b604166a41b4e95add66849bb
-    - name: mailbox animation_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1856,7 +1862,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 4384d043362393c428effc46909f50ec
-    - name: mailbox animation_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1865,7 +1871,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 53a27eebbae357c408c7c1dd86f76362
-    - name: mailbox animation_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -1874,7 +1880,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: ad2c00f54113e8e4d999fefde2fac375
-    - name: mailbox animation_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -1883,7 +1889,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 417027cf4a149ad40a70ca967e7329ed
-    - name: mailbox animation_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -1892,7 +1898,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 1983334d050fcdd4998f36ce445cb8b6
-    - name: mailbox animation_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -1901,7 +1907,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 9ac91e27c6573c8468cca30802246c88
-    - name: mailbox animation_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -1910,7 +1916,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: dc4df6abfed5c7e48b818b3f4e95ddb3
-    - name: mailbox animation_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -1919,7 +1925,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: c359b7e2a36ad0a4fbdd7d5706c375ac
-    - name: mailbox animation_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -1928,7 +1934,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f586137f6e3e8db47b38fb4e7e6c78ff
-    - name: mailbox animation_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -1937,7 +1943,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: e3e8d74be0f19f547bc9fad85ddc06c5
-    - name: mailbox animation_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -1946,7 +1952,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 3858720ec7270b1469fde666c5b85836
-    - name: mailbox animation_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -1955,7 +1961,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: d57894ef52338c24e80f12bcba4c130f
-    - name: mailbox animation_Frame_45
+    - name: Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -1964,7 +1970,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: fd92ed05465db104fa2210f28d7276c6
-    - name: mailbox animation_Frame_46
+    - name: Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -1973,7 +1979,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 644fa4dd57092494fa971287f5582c2e
-    - name: mailbox animation_Frame_47
+    - name: Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -1982,7 +1988,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 6ab72ac4971c7a74eb80f7a4741c8e22
-    - name: mailbox animation_Frame_48
+    - name: Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -1991,7 +1997,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: ae6bfd5fee4fe3b4da4212baf4ef8f6c
-    - name: mailbox animation_Frame_49
+    - name: Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -2000,7 +2006,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: ef95319c04981df4a9abe175b6438988
-    - name: mailbox animation_Frame_50
+    - name: Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -2009,7 +2015,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 0f1a94ef9c5e664439ae9ee5f7f20620
-    - name: mailbox animation_Frame_51
+    - name: Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -2018,7 +2024,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: e15261ae38809094ebb08c63b0d9c12a
-    - name: mailbox animation_Frame_52
+    - name: Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -2027,7 +2033,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 15c12c4e90a406a48b89fecc374e22a1
-    - name: mailbox animation_Frame_53
+    - name: Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -2036,7 +2042,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 326dcc5c60f37824fbb45f60831546db
-    - name: mailbox animation_Frame_54
+    - name: Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -2045,7 +2051,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 1b7d43edc2742d24296ba9a218b7285a
-    - name: mailbox animation_Frame_55
+    - name: Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -2054,7 +2060,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: d081fd157a40d524f8f4a53bc9f49d67
-    - name: mailbox animation_Frame_56
+    - name: Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -2063,7 +2069,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f2e57b155b0c11645ad920aaae1520c7
-    - name: mailbox animation_Frame_57
+    - name: Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -2072,7 +2078,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f77ffb3e2efef4544bc8f094d4348f77
-    - name: mailbox animation_Frame_58
+    - name: Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -2081,7 +2087,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 1ad445f820bac9a49a953d47a498ce23
-    - name: mailbox animation_Frame_59
+    - name: Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -2090,7 +2096,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 1749c6a19e0cff046a33303f237478c5
-    - name: mailbox animation_Frame_60
+    - name: Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -2099,7 +2105,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 781d29981194c474fab109fbca6f62ed
-    - name: mailbox animation_Frame_61
+    - name: Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -2108,7 +2114,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f1288dd3d3a1f5e4e905d2062a1ac41f
-    - name: mailbox animation_Frame_62
+    - name: Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -2117,7 +2123,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 657ad01d6ac5e3e49b9278ca746929b8
-    - name: mailbox animation_Frame_63
+    - name: Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -2126,7 +2132,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: c521732e1b4609c478a0836b410b7ed8
-    - name: mailbox animation_Frame_64
+    - name: Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -2135,7 +2141,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 0914c9371ddcdae40a279451203d1dc4
-    - name: mailbox animation_Frame_65
+    - name: Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -2144,7 +2150,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 0e731058c29769a40b1231fa2e17ad29
-    - name: mailbox animation_Frame_66
+    - name: Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -2153,7 +2159,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: 50dc88742a215d046970ae6e1446df3a
-    - name: mailbox animation_Frame_67
+    - name: Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -2162,7 +2168,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: a2e91d90a3b33c44f9001b5e5f2943cd
-    - name: mailbox animation_Frame_68
+    - name: Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -2171,7 +2177,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: c56582874d464ec438a3502dea81a0c4
-    - name: mailbox animation_Frame_69
+    - name: Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -2180,7 +2186,7 @@ ScriptedImporter:
         width: 256
         height: 240
       spriteId: f58cbfdce0860494d81470b5b768e8e2
-    - name: mailbox animation_Frame_70
+    - name: Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -2196,3 +2202,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 144, y: 144}
+  previousTextureSize: {x: 2048, y: 4096}

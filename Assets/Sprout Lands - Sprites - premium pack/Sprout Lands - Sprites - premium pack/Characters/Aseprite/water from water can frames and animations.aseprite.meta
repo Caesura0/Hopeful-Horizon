@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -304,13 +305,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -486470472
+    uuid:
+      value0: 4099007896
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -195959400
     name: water from water can frames and animations
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: water from water can frames and animations_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -319,7 +325,7 @@ ScriptedImporter:
         width: 446
         height: 104
       spriteId: e1adfbfe5f1556149acc2865e8dab9d5
-    - name: water from water can frames and animations_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -328,7 +334,7 @@ ScriptedImporter:
         width: 447
         height: 104
       spriteId: 322a506dc88ceef49a5af19fbaf8e232
-    - name: water from water can frames and animations_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -337,7 +343,7 @@ ScriptedImporter:
         width: 448
         height: 104
       spriteId: 20ab0d4d8e48e6c4aa90d7a1d60a8aec
-    - name: water from water can frames and animations_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -346,7 +352,7 @@ ScriptedImporter:
         width: 450
         height: 104
       spriteId: 50f826f2a0997c748a5271cd67b27508
-    - name: water from water can frames and animations_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -355,7 +361,7 @@ ScriptedImporter:
         width: 451
         height: 104
       spriteId: 6121f5fbb30d3a74b9ede11cc1f06507
-    - name: water from water can frames and animations_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -364,7 +370,7 @@ ScriptedImporter:
         width: 452
         height: 104
       spriteId: 8813251f38aa273409c3e7da8d693050
-    - name: water from water can frames and animations_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -373,7 +379,7 @@ ScriptedImporter:
         width: 450
         height: 104
       spriteId: 33ba60f7bab5c9d48a68b22da4efd183
-    - name: water from water can frames and animations_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -382,7 +388,7 @@ ScriptedImporter:
         width: 451
         height: 104
       spriteId: b328657aa3362c4489470adcf33d2a7e
-    - name: water from water can frames and animations_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -398,3 +404,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 480, y: 144}
+  previousTextureSize: {x: 512, y: 1024}

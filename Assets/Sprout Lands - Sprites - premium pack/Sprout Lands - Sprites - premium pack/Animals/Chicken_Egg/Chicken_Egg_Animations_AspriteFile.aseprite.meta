@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -444,13 +445,18 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1708969916
+    uuid:
+      value0: 2570511956
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1724455340
     name: Chicken_Egg_Animations_AspriteFile
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +465,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: acd0a39dd4ba7e747b72772cb3499bb4
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +474,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: d9a007a43d0d4b04e8037a96edecd746
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +483,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 467e30bb69207e241abdd0d9b46d7cff
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +492,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 49adc422e036bd64fa236e9b83daa208
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +501,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 6e4533395abefe541aaa62d19c65b4b9
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +510,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 1e4de75d74cecfd42825dc894ce988b2
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +519,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 706a1b8c36ac97f469ed539cf6dcd1a6
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +528,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: e320e33a10304c04587376a452f83210
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +537,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 6d8f394b0764fef47a856df8f65a0d94
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +546,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 646a1da1befdec94caf905bc9edb39b0
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +555,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 5564b211ec0b01e47a7a625e44b03e6e
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +564,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 6f5ad141d7bf61046a0df814f0b4e832
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +573,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 762257d5aa56564438a6df5be8665cc0
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +582,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: aaaf2fec9e0c2ec4aac8bbd1143e52ff
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +591,7 @@ ScriptedImporter:
         width: 304
         height: 1600
       spriteId: 4552aeffa79f30942a2ca6c17e13039f
-    - name: Chicken_Egg_Animations_AspriteFile_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -601,3 +607,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 288}
+  previousTextureSize: {x: 4096, y: 4096}

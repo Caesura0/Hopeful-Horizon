@@ -4,16 +4,35 @@ using TMPro;
 
 public class TimeManager : MonoBehaviour
 {
+    public static TimeManager Instance { get; private set; }
+
     public TextMeshProUGUI timeDisplay;
     public float realMinutesPerGameHour = 1f; // Adjust this to set the time scale, e.g., 1 real minute = 1 game hour
     private float realSecondsPerGameMinute;
     private float timeElapsed;
     private int currentHour;
     private int currentMinute;
+    private int currentDay = 1;
 
     // Define a delegate and an event that passes the current in-game time
     public delegate void TimeEvent(int hour, int minute);
     public static event TimeEvent OnFifteenMinuteInterval;
+    public static event TimeEvent OnThirtyMinuteInterval;
+    
+    public static event Action<int> OnHourChanged;
+    public static event Action<int> OnDayChanged;
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
@@ -41,11 +60,14 @@ public class TimeManager : MonoBehaviour
             {
                 currentHour++;
                 currentMinute = 0;
+                OnHourChanged?.Invoke(currentHour);
             }
 
             if (currentHour >= 24)
             {
                 currentHour = 0;
+                currentDay++;
+                OnDayChanged?.Invoke(currentDay);
             }
 
             // Trigger the event every 15 minutes and pass the current time
@@ -54,6 +76,14 @@ public class TimeManager : MonoBehaviour
                 if (OnFifteenMinuteInterval != null)
                 {
                     OnFifteenMinuteInterval.Invoke(currentHour, currentMinute);
+                }
+                
+                if (currentMinute % 30 == 0)
+                {
+                    if (OnThirtyMinuteInterval != null)
+                    {
+                        OnThirtyMinuteInterval.Invoke(currentHour, currentMinute);
+                    }
                 }
 
                 // Only update the time display every 15 minutes
@@ -76,4 +106,7 @@ public class TimeManager : MonoBehaviour
         realMinutesPerGameHour = newRealMinutesPerGameHour;
         realSecondsPerGameMinute = (realMinutesPerGameHour * 60f) / 60f;
     }
+
+    public int GetCurrentHour() => currentHour;
+    public int GetCurrentMinute() => currentMinute;
 }
